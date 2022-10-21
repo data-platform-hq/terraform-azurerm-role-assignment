@@ -1,5 +1,5 @@
-# Azure <> Terraform module
-Terraform module for creation Azure <>
+# Azure Role Assignment Terraform module
+Terraform module for creation of Azure Role Assignments
 
 ## Usage
 
