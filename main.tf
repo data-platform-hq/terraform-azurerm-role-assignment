@@ -1,7 +1,7 @@
 resource "azurerm_role_assignment" "this" {
   for_each = {
-    for permision in var.azure_rbac : "${permision.key}-${permision.role}" => permision
-    if permision.key != null
+    for permission in var.azure_rbac : "${permission.key}-${permission.role}" => permission
+    if permission.key != null
   }
 
   scope                = each.value.scope
