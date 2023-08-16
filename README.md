@@ -31,7 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_azure_rbac"></a> [azure\_rbac](#input\_azure\_rbac) | Azure RBAC permision map | `list(map(string))` | n/a | yes |
+| <a name="input_azure_rbac"></a> [azure\_rbac](#input\_azure\_rbac) | List of objects with parameters to create role assignment | `list(map(string))` | n/a | yes |
 
 ## Outputs
 
