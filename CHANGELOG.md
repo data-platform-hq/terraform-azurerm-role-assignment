@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/compare/v1.1.0...v1.2.0) (2024-09-10)
+
+
+### Bug Fixes
+
+* added security KICS scan action ([496436d](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/commit/496436d1c38596f79224ea48ecb3a3973e6832c0))
+* replaced pre-commit repo docs creation/update by GH Actions ([8d7c9c9](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/commit/8d7c9c9d2f65b40867eac10b2cfcfd28e766bb6d))
+
+
+### Features
+
+* upgrade to AzureRM v4 ([fa2c0b6](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/commit/fa2c0b68d8704ed77a16bfe25cef09c73fee5f8c))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/compare/v1.0.0...v1.1.0) (2023-08-16)
 
 
