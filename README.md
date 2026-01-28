@@ -9,13 +9,13 @@ Terraform module for creation of Azure Role Assignments
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 4.0.1 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | >= 4.0.1 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | ~> 4.0 |
 
 ## Modules
 
@@ -31,7 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_azure_rbac"></a> [azure\_rbac](#input\_azure\_rbac) | List of objects with parameters to create role assignment | <pre>list(object({<br>    key          = string<br>    scope        = string<br>    principal_id = string<br>    role         = string<br>  }))</pre> | n/a | yes |
+| <a name="input_azure_rbac"></a> [azure\_rbac](#input\_azure\_rbac) | List of objects with parameters to create role assignment | <pre>list(object({<br/>    key          = string<br/>    scope        = string<br/>    principal_id = string<br/>    role         = string<br/>  }))</pre> | n/a | yes |
 
 ## Outputs
 
