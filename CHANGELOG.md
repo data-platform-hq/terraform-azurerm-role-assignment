@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/compare/v1.2.0...v1.3.0) (2026-02-02)
+
+
+### Features
+
+* upgrade provider to AzureRM v4.0 ([a3bc1a4](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/commit/a3bc1a423f996ce89d11df2af05292a2917638c7))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-role-assignment/compare/v1.1.0...v1.2.0) (2024-09-10)
 
 
